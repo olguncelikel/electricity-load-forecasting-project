@@ -78,12 +78,14 @@ All models were tuned using `GridSearchCV` and `RandomSearchCV`, also evaluated 
 
 ## Suggested Folder Structure
 
+```
 electricity-load-forecasting-project/
 ├── data
 ├── data_preparation.ipynb
 ├── models.ipynb
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
