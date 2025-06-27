@@ -48,6 +48,7 @@ All models were tuned using `GridSearchCV` and `RandomSearchCV`, also evaluated 
    - Missing value imputation
    - Outlier removal (via IQR method)
    - Filtering invalid records (e.g., consumption = 0)
+   - Scaling for non-tree based models
 
 2. **EDA**
    - Boxplots & scatterplots for outlier analysis
@@ -82,7 +83,7 @@ All models were tuned using `GridSearchCV` and `RandomSearchCV`, also evaluated 
 electricity-load-forecasting-project/
 ├── data
 ├── data_preparation.ipynb
-├── models.ipynb
+├── ml_models.ipynb
 ├── requirements.txt
 └── README.md
 ```
